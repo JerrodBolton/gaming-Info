@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #ffffff;
+  background-color: #ce32f1;
   color: #000000;
 }
 
@@ -103,7 +103,7 @@ nav ul li a:hover {
   animation: fade s infinite 15s;
 }
 
-/* /* Latest News */
+
 /* Latest News */
 .latest-news {
   max-width: 1000px;
@@ -127,7 +127,7 @@ nav ul li a:hover {
 .news p {
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.504);
   color: #000;
 }
 
@@ -139,6 +139,14 @@ nav ul li a:hover {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: #000000;
+}
+.news p:hover {
+  background-color:  #ce32f1;;
+  color: #000000;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  transform: scale(1.05);
+
 }
 
 /* Footer */
