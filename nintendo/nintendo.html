@@ -5,23 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nintendo</title>
-    <link rel="stylesheet" href=".//nintendo.css" />
+    <!-- This is the global styling   -->
+    <link rel="stylesheet" href="../main.css" />
+
+    
 </head>
 
 <body>
-    <h1>Nintendo</h1>
-    <nav>
-        <ul>
+    <header>
+        <h1>Game Decider</h1>
+        <!-- This is going to make navbar -->
+        <nav>
+          <ul>
+            <!-- This is the way the page are going to be link -->
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../playStation/playStation.html">PlayStation</a></li>
-            <li><a href="../xbox/xbox.html">Xbox</a></li>
             <li><a href="../nintendo/nintendo.html">Nintendo</a></li>
-        </ul>
-    </nav>
+            <li><a href="../playStation/playStation.html">Playstation</a></li>
+            <li><a href="../xbox/xbox.html">Xbox</a></li>
+            <li><a href="../pc/pc.html">PC</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+    <!-- Img -->
     <div class="image-bar">
         <img src="../Images/nintendo.avif" alt="This is a picture of a "/>
-      <!-- Img -->
-      <div>
+
+    </div>
+
     <div>
         <h2>Information</h2>
         <p> Nintendo is a Japanese multinational entertainment company founded in 1889, known for its video game
@@ -42,9 +53,9 @@
             Nintendo Switch Online (Individual): $19.99 per year
             Nintendo Switch Online (Family): $49.99 per year
             Nintendo Switch Online + Expansion Pack (Individual): $49.99 per year
-
         </p>
     </div>
+
     <div>
         <h2>Latest News</h2>
         <p>
@@ -60,27 +71,34 @@
 
 
     </div>
-    <footer>
-        <h3>Site Map</h3>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nintendo.html">Nintendo</a></li>
-            <li><a href="playstation.html">Playstation</a></li>
-            <li><a href="xbox.html">Xbox</a></li>
-            <li><a href="pc.html">PC</a></li>
-            <li><a href="latest-news.html">Latest News</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h3>Subscribe</h3>
-        <form action="#" method="post">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-            <input type="submit" value="Subscribe" />
-        </form>
 
-        <p>&copy; 2025 Game Decider. All rights reserved.</p>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-content1">
+            <h3>Site Map</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="nintendo.html">Nintendo</a></li>
+              <li><a href="playstation.html">Playstation</a></li>
+              <li><a href="xbox.html">Xbox</a></li>
+              <li><a href="pc.html">PC</a></li>
+              <li><a href="latest-news.html">Latest News</a></li>
+            </ul>
+          </div>
+          <div class="footer-content2">
+            <h3>Subscribe</h3>
+            <form action="#" method="post">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <input type="submit" value="Subscribe" />
+            </form>
+            <p>&copy; 2025 Game Decider. All rights reserved.</p>
+          </div>
+        </div>
     </footer>
+      
 </body>
 
 </html>

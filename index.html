@@ -1,108 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Decider</title>
+    <!-- this is the style for the index -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- THis is the main CSS -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Decider</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <div >
+      <header>
+        <h1>Game Decider</h1>
+        <!-- This is going to make navbar -->
+        <nav>
+          <ul>
+            <!-- This is the way the page are going to be link -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./nintendo/nintendo.html">Nintendo</a></li>
+            <li><a href="./playStation/playStation.html">Playstation</a></li>
+            <li><a href="./xbox/xbox.html">Xbox</a></li>
+            <li><a href="./pc/pc.html">PC</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
-<body>
-  <header>
-    <h1>Game Decider</h1>
-    <!-- This is going to make navbar -->
-    <nav>
-      <ul>
-        <!-- This is the way the page are going to be link -->
-        <li><a href="index.html">Home</a></li>
-        <li><a href="./nintendo/nintendo.html">Nintendo</a></li>
-        <li><a href="./playStation/playStation.html">Playstation</a></li>
-        <li><a href="./xbox/xbox.html">Xbox</a></li>
-        <li><a href="./pc/pc.html">PC</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="slideshow">
-    <div class="slide">
-      <img src="./Images/nintendo.avif" alt="beach1" />
-    </div>
-    <div class="slide">
-      <img src="./Images/pc.webp" alt="beach2" />
-    </div>
-    <div class="slide">
-      <img src="./Images/playstation-5.jpg" alt="beach3" />
-    </div>
-    <div class="slide">
-      <img src="./Images/xbox.webp" alt="beach3" />
-    </div>
-  </div> 
-  <div class="latest-news">
-    <h2>Latest News</h2>
-    <div class="news">
-          <p>
-            PlaySide Studios, Australia’s largest video game developer, is laying off
-            developers as part of a restructure to save $2.5-$3.1 million. The
-            layoffs, primarily impacting work-for-hire and non-project specific staff,
-            are a result of a prolonged period without new contract signings.
-          </p>
-          <p>
-            Starbreeze appoints Adolf Kristjansson as its new CEO, effective April 1,
-            2025. This comes after financial underperformance, layoffs, and the
-            closure of its French office, which is violating French labor laws.
-          </p>
-          <p>
-            Overtake, a new NA esports organization founded in February 2025, have
-            announced their entry into the NA Counter-Strike 2 scene on March 26th
-            with the signing of a roster that previously represented CCG in ESEA
-            Advanced Season 52. Alongside their new CS2 team, Overtake also hosts
-            squads in Fortnite and Call of Duty.
-          </p>
-          <p>
-            Ubisoft Leamington Spa has officially closed its studio doors, following
-            confirmation from Ubisoft back in January that the studio would be
-            shutting down. Originally founded as FreeStyleGames in 2002, the
-            Leamington Spa team was the oldest game studio still operating in the area
-            and one of the oldest game studios to be based in Leamington. FreeStyleGames began as an independent team
-            before being acquired by
-            Activision in 2008, where it led the development of DJ Hero, DJ Hero 2,
-            and Guitar Hero Live. After being acquired by Ubisoft in 2017, the studio
-            mainly ran support on big Ubisoft titles and franchises, from Tom Clancy
-            to Far Cry, all the way up to the recently released Assassin's Creed
-            Shadows.
-          </p>
-    </div>
-  </div>
-
-  
-  <footer>
-    <div class="footer-content">
-      <div class="footer-content1">
-        <h3>Site Map</h3>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="nintendo.html">Nintendo</a></li>
-          <li><a href="playstation.html">Playstation</a></li>
-          <li><a href="xbox.html">Xbox</a></li>
-          <li><a href="pc.html">PC</a></li>
-          <li><a href="latest-news.html">Latest News</a></li>
-        </ul>
+    <div class="slide-show">
+      <div class="slide">
+        <img src="./Images/nintendo.avif" alt="nintendo image" />
       </div>
-      <div class="footer-content2">
-        <h3>Subscribe</h3>
-        <form action="#" method="post">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <input type="submit" value="Subscribe" />
-        </form>
-        <p>&copy; 2025 Game Decider. All rights reserved.</p>
+      <div class="slide">
+        <img src="./Images/pc.webp" alt="personal-computer image" />
+      </div>
+      <div class="slide">
+        <img src="./Images/playstation-5.jpg" alt="playstation image" />
+      </div>
+      <div class="slide">
+        <img src="./Images/xbox.webp" alt="xbox image" />
       </div>
     </div>
-  </footer>
-  
-</body>
 
+    <a href="#" class="link-test">
+      <h2>Game Decider Testing</h2>
+    </a>
+
+    <div class="latest-news">
+      <h2>Latest News</h2>
+      <div class="news">
+        <p>
+          PlaySide Studios, Australia’s largest video game developer, is laying
+          off developers as part of a restructure to save $2.5-$3.1 million. The
+          layoffs, primarily impacting work-for-hire and non-project specific
+          staff, are a result of a prolonged period without new contract
+          signings.
+        </p>
+        <p>
+          Starbreeze appoints Adolf Kristjansson as its new CEO, effective April
+          1, 2025. This comes after financial underperformance, layoffs, and the
+          closure of its French office, which is violating French labor laws.
+        </p>
+        <p>
+          Overtake, a new NA esports organization founded in February 2025, have
+          announced their entry into the NA Counter-Strike 2 scene on March 26th
+          with the signing of a roster that previously represented CCG in ESEA
+          Advanced Season 52. Alongside their new CS2 team, Overtake also hosts
+          squads in Fortnite and Call of Duty.
+        </p>
+        <p>
+          Ubisoft Leamington Spa has officially closed its studio doors,
+          following confirmation from Ubisoft back in January that the studio
+          would be shutting down. Originally founded as FreeStyleGames in 2002,
+          the Leamington Spa team was the oldest game studio still operating in
+          the area and one of the oldest game studios to be based in Leamington.
+          FreeStyleGames began as an independent team before being acquired by
+          Activision in 2008, where it led the development of DJ Hero, DJ Hero
+          2, and Guitar Hero Live. After being acquired by Ubisoft in 2017, the
+          studio mainly ran support on big Ubisoft titles and franchises, from
+          Tom Clancy to Far Cry, all the way up to the recently released
+          Assassin's Creed Shadows.
+        </p>
+        <!-- I ned to add two more p tags -->
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-content1">
+          <h3>Site Map</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Nintendo</a></li>
+            <li><a href="#">Playstation</a></li>
+            <li><a href="#">Xbox</a></li>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">Latest News</a></li>
+          </ul>
+        </div>
+        <div class="footer-content2" id="subscribe">
+          <h3>Subscribe</h3>
+          <form action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <input type="submit" value="Subscribe" />
+          </form>
+          <p>&copy; 2025 Game Decider. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
