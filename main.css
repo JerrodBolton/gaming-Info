@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  scrollbar-color: #ce32f1 #6832f1;
 }
 
 body {
@@ -10,6 +12,27 @@ body {
   padding: 20px;
 }
 /* Navbar */
+header{
+  background-color: #4a1ea1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title-name{
+  color: #ce32f1;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.title-name:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
+
 nav ul {
   display: flex;
   gap: 15px;
