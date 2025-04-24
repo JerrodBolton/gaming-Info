@@ -96,6 +96,12 @@ footer {
 .footer-content1 ul li a:hover {
   color: #ce32f1;
 }
+.footer-title{
+  color: #ce32f1;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
 
 .footer-content2 form {
   display: flex;
